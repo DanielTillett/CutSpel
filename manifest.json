@@ -6,7 +6,7 @@
     			"128": "ON.png" },
     "permissions": ["storage","tabs"],
     "description": "English spelling reform in your browser!",
-    "version": "1.0.2",
+    "version": "1.0.3",
 	"author": "Daniel Tillett",
 	"homepage_url": "http://www.cutspel.com",
     "background":{

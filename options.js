@@ -21,17 +21,20 @@
 */
 
 //Controls if Basic or Full Mode is used
-$(document).ready(function() {
+document.addEventListener("DOMContentLoaded", function() {
+	var radios = document.querySelectorAll("input[name='mode']");
 
-    if (localStorage != null && localStorage.length > 0) {
-		var partial = localStorage.getItem("cutspel_basic");
-		$("input[name=mode][value='" + partial + "']").attr("checked", true);
-    }
-    
-	$("input[name='mode']").on("click", function(){	
-		var basic_or_advanced = $(this).val();
-		localStorage.setItem("cutspel_basic", basic_or_advanced);
+	chrome.storage.local.get("cutspel_basic", function(settings) {
+		if (settings.cutspel_basic) {
+			for (var i = 0; i < radios.length; i++) {
+				radios[i].checked = (radios[i].value === settings.cutspel_basic);
+			}
+		}
 	});
-	
-});
 
+	for (var i = 0; i < radios.length; i++) {
+		radios[i].addEventListener("change", function() {
+			chrome.storage.local.set({cutspel_basic: this.value});
+		});
+	}
+});

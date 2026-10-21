@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="280" viewBox="0 0 440 280">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3cb64a"/>
+      <stop offset="1" stop-color="#1c7f2f"/>
+    </linearGradient>
+  </defs>
+  <rect width="440" height="280" fill="url(#g)"/>
+  <!-- scythe from icon128.svg, scaled up -->
+  <g transform="translate(-52 -6) scale(2.3)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="88" y1="30" x2="40" y2="78" stroke-width="7"/>
+    <line x1="66" y1="56" x2="74" y2="64" stroke-width="6"/>
+    <path d="M37 80 C 44 97, 62 103, 92 100 C 70 96, 56 90, 50 79 Z" stroke-width="2"/>
+  </g>
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" fill="#fff">
+    <text x="196" y="122" font-size="54" font-weight="700" letter-spacing="-1">CutSpel</text>
+    <text x="198" y="156" font-size="19" fill="#e3f5e6">English spelling, trimmed.</text>
+    <g font-size="17" font-weight="600">
+      <rect x="198" y="178" width="196" height="34" rx="17" fill="#ffffff" fill-opacity=".16"/>
+      <text x="296" y="201" text-anchor="middle">people → peple</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3cb64a"/>
+      <stop offset="1" stop-color="#1f8a33"/>
+    </linearGradient>
+  </defs>
+  <!-- 96x96 artwork inside 16px transparent padding, per Chrome Web Store guidance -->
+  <rect x="16" y="16" width="96" height="96" rx="22" fill="url(#g)"/>
+  <g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+    <!-- snath -->
+    <line x1="88" y1="30" x2="40" y2="78" stroke-width="7"/>
+    <!-- grip -->
+    <line x1="66" y1="56" x2="74" y2="64" stroke-width="6"/>
+    <!-- blade -->
+    <path d="M37 80 C 44 97, 62 103, 92 100 C 70 96, 56 90, 50 79 Z" stroke-width="2"/>
+  </g>
+</svg>

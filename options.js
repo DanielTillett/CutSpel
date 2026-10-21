@@ -37,4 +37,33 @@ document.addEventListener("DOMContentLoaded", function() {
 			chrome.storage.local.set({cutspel_basic: this.value});
 		});
 	}
+
+	//Automatic mode needs all-sites access, which Chrome only grants from a click
+	var auto = document.getElementById("auto_mode"),
+		allSites = {origins: ["<all_urls>"]};
+
+	function showAuto() {
+		Promise.all([chrome.storage.local.get("cutspel_auto"), chrome.permissions.contains(allSites)]).then(function(results) {
+			auto.checked = results[0].cutspel_auto === true && results[1];
+		});
+	}
+	showAuto();
+	chrome.storage.onChanged.addListener(function(changes, area) {
+		if (area === "local" && changes.cutspel_auto) {
+			showAuto();
+		}
+	});
+
+	auto.addEventListener("change", function() {
+		if (auto.checked) {
+			chrome.permissions.request(allSites).then(function(granted) {
+				auto.checked = granted;
+				return chrome.storage.local.set({cutspel_auto: granted});
+			});
+		} else {
+			chrome.storage.local.set({cutspel_auto: false}).then(function() {
+				return chrome.permissions.remove(allSites);
+			});
+		}
+	});
 });

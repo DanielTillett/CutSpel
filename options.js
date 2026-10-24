@@ -23,15 +23,15 @@
 //Controls if Basic or Full Mode is used
 $(document).ready(function() {
 
-    if (localStorage != null && localStorage.length > 0) {
-		var partial = localStorage.getItem("cutspel_basic");
-		$("input[name=mode][value='" + partial + "']").attr("checked", true);
-    }
-    
-	$("input[name='mode']").on("click", function(){	
-		var basic_or_advanced = $(this).val();
-		localStorage.setItem("cutspel_basic", basic_or_advanced);
+	chrome.storage.local.get("cutspel_basic", function(items) {
+		if (items.cutspel_basic) {
+			$("input[name=mode][value='" + items.cutspel_basic + "']").prop("checked", true);
+		}
 	});
-	
-});
 
+	$("input[name='mode']").on("click", function(){
+		var basic_or_advanced = $(this).val();
+		chrome.storage.local.set({cutspel_basic: basic_or_advanced});
+	});
+
+});

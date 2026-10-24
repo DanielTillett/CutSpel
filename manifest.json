@@ -1,34 +1,29 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "CutSpel",
     "short_name": "CutSpel",
-    "icons": { 	"48": "ON.png", 
+    "icons": { 	"48": "ON.png",
     			"128": "ON.png" },
-    "permissions": ["storage","tabs"],
+    "permissions": ["storage"],
     "description": "English spelling reform in your browser!",
-    "version": "1.0.3",
+    "version": "1.1.0",
 	"author": "Daniel Tillett",
 	"homepage_url": "https://www.cutspel.com",
     "background":{
-        "scripts":["jquery-1.11.1.min.js", "background.js"]
+        "service_worker": "background.js"
     },
 	"options_page":"options.html",
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
             "exclude_globs": ["*google.com*"],
-            "js": ["jquery-1.11.1.min.js", "context-script.js" ]
+            "js": ["context-script.js"]
         }
     ],
-    "browser_action": {
+    "action": {
         "default_icon": {
-            "19": "ON.png", 
+            "19": "ON.png",
             "38": "ON.png"
         }
-    },
-	"web_accessible_resources": [
-		"jquery-1.11.1.min.map"
-	],
-	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+    }
 }
-

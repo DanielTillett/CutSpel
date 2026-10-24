@@ -1,56 +1,76 @@
-<h2>The Problem with English Spelling</h2>
-<blockquote>“Lost causes are the only ones worth fighting for.”
-— Clarence Darrow</blockquote>
-English spelling is notoriously inconsistent and archaic. It causes endless confusion for people learning to read and write English and it takes far longer to master than it should. While everyone agrees that English spelling is a mess, major reform has not occurred despite more than <a href="http://www.spellingsociety.org/journals/books/csintro.pdf" target="_blank">70 serious proposals over the centuries</a>. The <a href="http://en.wikipedia.org/wiki/English_language_spelling_reform" target="_blank">reasons spelling reform has failed </a>are numerous.
-<ul>
-	<li>There is no central authority that can impose any reform —  "No English Academy".</li>
-	<li>There is strong resistance to change from people who have already mastered traditional spelling —  "Spelling is easy so why should we change".</li>
-	<li>Reform would change the spelling of most words and significantly alter the appearance of written English —  “This writing looks funny and is hard to read".</li>
-	<li>At the start of any reform there are no readers familiar with the new spelling. This discourages writers using the new spelling which prevents readers learning the new spelling —  "<a href="http://en.wikipedia.org/wiki/Chicken_or_the_egg" target="_blank">Chicken-and-egg problem</a>".</li>
-	<li>There is an enormous body of existing texts that use traditional spelling —  “If we fixed spelling we would have to reprint all the books".</li>
-</ul>
-<h2>Can English be Reformed?</h2>
-These seemingly intractable problems have made English spelling reform the classic "lost cause” favoured only by cranks and eccentrics. While history predicts that any "big bang" reform (i.e. updating all spelling at once to a new system) is doomed to failure, <a href="http://en.wikipedia.org/wiki/Noah_Webster" target="_blank">Noah Webster's</a> limited success in improving English spelling showed that it is possible. Webster succeeded where he removed redundant letters from words (e.g. colour » color, traveller » traveler) and failed where he tried to make large changes to the appearance of common words (e.g. tongue » tung).
+# The Problem with English Spelling
 
-Webster’s reforms demonstrated that more efficient spellings can displace archaic forms via familiarity alone. A recent example of this effect is the change in Australian usage from the archaic English <em>gaol</em> to the newer American <em>jail</em>. No one in Australia imposed this change — it occurred spontaneously as Australians became more familiar with the <em>jail</em> variant and chose to use it over the less clear <em>gaol</em>.
-<h2>Cut Spelling</h2>
-Many of the English words which cause the most spelling and pronunciation difficulties are those that contain redundant letters. Simply eliminating the redundant letters in words would solve many problems without significantly changing the appearance and use of written English.
+> "Lost causes are the only ones worth fighting for."
+> — Clarence Darrow
 
-This simple idea was developed by Christopher Upward and colleagues into <a href="http://www.spellingsociety.org/aboutsss/leaflets/cutspelng.php" target="_blank"><em>Cut Spelling</em></a>. Their approach removes the redundant letters, along with a small number of letter substitutions, to reduce the complexity of English spelling and improve writing speed. <em>Cut Spelling</em> does not try to solve all the problem caused by the existing English spelling system (this would require changing to a totally phonetic system), but it does remove the worst difficulties. The advantage of <em>Cut Spelling</em> over other proposals is people accustomed to traditional spelling can quickly adapt to using it with little or no effort.
+English spelling is notoriously inconsistent and archaic. It causes endless confusion for people learning to read and write English and it takes far longer to master than it should. While everyone agrees that English spelling is a mess, major reform has not occurred despite more than [70 serious proposals over the centuries](https://www.spellingsociety.org/uploaded_books/cschap1.pdf). The [reasons spelling reform has failed](https://en.wikipedia.org/wiki/English_language_spelling_reform) are numerous.
 
-<em>Cut Spelling</em> uses a <a title="Cut Spelling" href="http://en.wikipedia.org/wiki/Cut_Spelling" target="_blank">limited number of cutting and substitution rules</a> to transform traditional spellings.
-<h3>Cutting Rules</h3>
-<ol>
-	<li><strong>Cut letters irrelevant to pronunciation.</strong> This rule removes most silent letters, except when these letters (such as the "magic e") help with pronunciation (e.g. <em>people</em> » <em>peple</em>, <em>knife</em> » <em>nife</em>, <em>low</em> » <em>lo</em>).</li>
-	<li><strong>Cut unstressed vowels before l,m,n,r</strong> (e.g. <em>symbol</em> » <em>symbl</em>, <em>lemon</em> » <em>lemn</em>, <em>permanent</em> » <em>permnnt</em>, <em>churches</em> -» <em>churchs</em>, <em>edible</em> » <em>edbl</em>).</li>
-	<li><strong>Cut doubled consonants except when both consonants are sounded</strong> (e.g. <em>innate</em> » <em>inate</em>, <em>spell</em> » <em>spel</em>, but the<em> "ll"</em> in <em>holly</em> is kept).</li>
-</ol>
-<h3>Substitution Rules</h3>
-<ol>
-	<li><strong>"<em>gh</em>" and "<em>ph</em>" become “<em>f</em>" when pronounced as the “<em>f</em>" in <em>father</em></strong> (e.g. <em>draught</em> » <em>draft</em>, <em>sulphur</em> » <em>sulfr</em>, <em>photograph</em> » <em>fotograf</em>).</li>
-	<li><strong>“<em>g</em>" is changed to “<em>j</em>" when pronounced as the “<em>j</em>" in <em>jump</em></strong> (e.g. <em>judge</em> » <em>juj</em>, <em>rouge</em> » <em>ruje</em>).</li>
-	<li><strong>"<em>ig</em>" and "<em>igh</em>" are changed to "y" when pronounced as the “<em>y</em>" in <em>fly</em></strong> (e.g. <em>flight</em> » <em>flyt</em>, <em>sign</em> » <em>syn</em>).</li>
-</ol>
-<em>Cut Spelling</em> has a number of optional rules such as replacing “<em>ch</em>" with “<em>k</em>" when it is pronounced as the “<em>k</em>" in <em>keep</em> and replacing <em>“–tion"</em>, <em>“–cian", “–sion", </em>and<em> “–ssion”</em>  with <em>“–shn"</em>.
+- There is no central authority that can impose any reform — "No English Academy".
+- There is strong resistance to change from people who have already mastered traditional spelling — "Spelling is easy so why should we change".
+- Reform would change the spelling of most words and significantly alter the appearance of written English — "This writing looks funny and is hard to read".
+- At the start of any reform there are no readers familiar with the new spelling. This discourages writers using the new spelling which prevents readers learning the new spelling — "[Chicken-and-egg problem](https://en.wikipedia.org/wiki/Chicken_or_the_egg)".
+- There is an enormous body of existing texts that use traditional spelling — "If we fixed spelling we would have to reprint all the books".
 
-One of the most attractive features of <em>Cut Spelling</em> is if a writer has doubts if a letter should be cut or substituted in any word then the convention is to make no changes. This "no-change" rule enables <em>Cut Spelling</em> to be mixed with traditional spelling without causing comprehension issues.
-<h2>CutSpel</h2>
-Despite the great potential of <em>Cut Spelling</em>, it has failed to attract mainstream interest. It faces the classic <a href="http://en.wikipedia.org/wiki/Chicken_or_the_egg" target="_blank">chicken-and-egg problem</a> in that until people are reading texts written using <em>Cut Spelling </em>writers will not use it. Readers cannot become familiar with <em>Cut Spelling</em> unless they read texts written using it. To break <em>Cut Spelling</em> out of this <a href="http://en.wikipedia.org/wiki/Vicious_circle">vicious circle</a> I have written a free <strong>Google Chrome Extension (CutSpel)</strong> which automatically converts the text of webpages from traditional to <em>Cut Spelling</em>.
+## Can English be Reformed?
 
-<strong>CutSpel</strong> enables readers to become comfortable with <em>Cut Spelling</em> while allowing writers to use traditional spelling until they feel their audience is willing to read text written using <em>Cut Spelling</em>. As more readers become familiar with <em>Cut Spelling</em> (via <strong>CutSpel</strong>) more writers will use it, creating a<a href="http://en.wikipedia.org/wiki/Vicious_circle" target="_blank"> virtuous circle</a> where spelling reform can occur organically without the need for it to be imposed from above by some non-existant language authority.
-<h2>Installing CutSpel</h2>
-<a href="https://chrome.google.com/webstore/detail/cutspel/hojgjeiaognigdpphinpoobgpmgpkone" target="_blank"><strong>CutSpel</strong> can be found on the Chrome Webstore</a>. Version 1.1 works in current versions of Google Chrome and needs no special permissions to install.
+These seemingly intractable problems have made English spelling reform the classic "lost cause" favoured only by cranks and eccentrics. While history predicts that any "big bang" reform (i.e. updating all spelling at once to a new system) is doomed to failure, [Noah Webster's](https://en.wikipedia.org/wiki/Noah_Webster) limited success in improving English spelling showed that it is possible. Webster succeeded where he removed redundant letters from words (e.g. colour » color, traveller » traveler) and failed where he tried to make large changes to the appearance of common words (e.g. tongue » tung).
 
-To run it from this repository instead, open <code>chrome://extensions</code>, turn on <strong>Developer mode</strong>, click <strong>Load unpacked</strong> and choose the CutSpel folder.
-<h2>Using CutSpel</h2>
-Click the <strong>CutSpel Icon</strong> in the <strong>Chrome Toolbar</strong> to convert the page you are reading to the “cut" form. Click it again to restore the traditional spelling. The icon is green on a page that has been cut and grey otherwise. Text the page adds after you click, such as new comments or search results, is cut too.
+Webster's reforms demonstrated that more efficient spellings can displace archaic forms via familiarity alone. A recent example of this effect is the change in Australian usage from the archaic English *gaol* to the newer American *jail*. No one in Australia imposed this change — it occurred spontaneously as Australians became more familiar with the *jail* variant and chose to use it over the less clear *gaol*.
 
-<strong>CutSpel</strong> has two modes, <strong>Basic</strong> and <strong>Advanced</strong>, and an optional <strong>Automatic Mode</strong>, all set from the extension options page.
-<h3>Basic Mode</h3>
-Modifies 780 of the most common English words while avoiding the more disruptive <em>Cut Spelling</em> changes such as <em>eye</em> » <em>y</em>. Names of people and objects are left unchanged. The text generated by this mode is very easy to read.
-<h3>Advanced Mode</h3>
-Modifies about 4,200 of the most common English words and uses the full <em>Cut Spelling</em> substitution rules. Names of people and objects are left unchanged. The text produced by the advanced mode requires slightly more effort to read, however I have found most people quickly adjust and are reading at a normal pace after only a few hours.
-<h3>Automatic Mode</h3>
-Tick <strong>Cut every page automatically</strong> on the options page to have every page converted as it loads, without clicking. Chrome will ask you to let <strong>CutSpel</strong> read and change all websites; untick the box to remove that permission again. Pages on google.com are left unchanged in this mode.
-<h3>Privacy</h3>
-<strong>CutSpel</strong> changes spelling inside your browser only. It does not collect, store or send any of the pages you read; the only things it saves are the word list and your settings.
+## Cut Spelling
+
+Many of the English words which cause the most spelling and pronunciation difficulties are those that contain redundant letters. Simply eliminating the redundant letters in words would solve many problems without significantly changing the appearance and use of written English.
+
+This simple idea was developed by Christopher Upward and colleagues into [*Cut Spelling*](https://www.spellingsociety.org/uploaded_leaflets/1998cutspel-leaflet.pdf). Their approach removes the redundant letters, along with a small number of letter substitutions, to reduce the complexity of English spelling and improve writing speed. *Cut Spelling* does not try to solve all the problems caused by the existing English spelling system (this would require changing to a totally phonetic system), but it does remove the worst difficulties. The advantage of *Cut Spelling* over other proposals is that people accustomed to traditional spelling can quickly adapt to using it with little or no effort.
+
+*Cut Spelling* uses a [limited number of cutting and substitution rules](https://en.wikipedia.org/wiki/Cut_Spelling) to transform traditional spellings.
+
+### Cutting Rules
+
+1. **Cut letters irrelevant to pronunciation.** This rule removes most silent letters, except when these letters (such as the "magic e") help with pronunciation (e.g. *people* » *peple*, *knife* » *nife*, *low* » *lo*).
+2. **Cut unstressed vowels before l,m,n,r** (e.g. *symbol* » *symbl*, *lemon* » *lemn*, *permanent* » *permnnt*, *churches* » *churchs*, *edible* » *edbl*).
+3. **Cut doubled consonants except when both consonants are sounded** (e.g. *innate* » *inate*, *spell* » *spel*, but the *"ll"* in *holly* is kept).
+
+### Substitution Rules
+
+1. **"*gh*" and "*ph*" become "*f*" when pronounced as the "*f*" in *father*** (e.g. *draught* » *draft*, *sulphur* » *sulfr*, *photograph* » *fotograf*).
+2. **"*g*" is changed to "*j*" when pronounced as the "*j*" in *jump*** (e.g. *judge* » *juj*, *rouge* » *ruje*).
+3. **"*ig*" and "*igh*" are changed to "y" when pronounced as the "*y*" in *fly*** (e.g. *flight* » *flyt*, *sign* » *syn*).
+
+*Cut Spelling* has a number of optional rules such as replacing "*ch*" with "*k*" when it is pronounced as the "*k*" in *keep* and replacing "*–tion*", "*–cian*", "*–sion*" and "*–ssion*" with "*–shn*".
+
+One of the most attractive features of *Cut Spelling* is that if a writer has doubts whether a letter should be cut or substituted in any word then the convention is to make no changes. This "no-change" rule enables *Cut Spelling* to be mixed with traditional spelling without causing comprehension issues.
+
+## CutSpel
+
+Despite the great potential of *Cut Spelling*, it has failed to attract mainstream interest. It faces the classic [chicken-and-egg problem](https://en.wikipedia.org/wiki/Chicken_or_the_egg) in that until people are reading texts written using *Cut Spelling*, writers will not use it. Readers cannot become familiar with *Cut Spelling* unless they read texts written using it. To break *Cut Spelling* out of this [vicious circle](https://en.wikipedia.org/wiki/Vicious_circle) I have written a free **Google Chrome Extension (CutSpel)** which automatically converts the text of webpages from traditional to *Cut Spelling*.
+
+**CutSpel** enables readers to become comfortable with *Cut Spelling* while allowing writers to use traditional spelling until they feel their audience is willing to read text written using *Cut Spelling*. As more readers become familiar with *Cut Spelling* (via **CutSpel**) more writers will use it, creating a [virtuous circle](https://en.wikipedia.org/wiki/Vicious_circle) where spelling reform can occur organically without the need for it to be imposed from above by some non-existent language authority.
+
+## Installing CutSpel
+
+[**CutSpel** can be found on the Chrome Web Store](https://chromewebstore.google.com/detail/cutspel/hejdneglgebohchokjedbfkmaajplkkk). Version 1.1 works in current versions of Google Chrome and needs no special permissions to install.
+
+To run it from this repository instead, open `chrome://extensions`, turn on **Developer mode**, click **Load unpacked** and choose the CutSpel folder.
+
+## Using CutSpel
+
+Click the **CutSpel Icon** in the **Chrome Toolbar** to convert the page you are reading to the "cut" form. Click it again to restore the traditional spelling. The icon is green on a page that has been cut and grey otherwise. Text the page adds after you click, such as new comments or search results, is cut too.
+
+**CutSpel** has two modes, **Basic** and **Advanced**, and an optional **Automatic Mode**, all set from the extension options page.
+
+### Basic Mode
+
+Modifies 780 of the most common English words while avoiding the more disruptive *Cut Spelling* changes such as *eye* » *y*. Names of people and objects are left unchanged. The text generated by this mode is very easy to read.
+
+### Advanced Mode
+
+Modifies about 4,200 of the most common English words and uses the full *Cut Spelling* substitution rules. Names of people and objects are left unchanged. The text produced by the advanced mode requires slightly more effort to read; however, I have found most people quickly adjust and are reading at a normal pace after only a few hours.
+
+### Automatic Mode
+
+Tick **Cut every page automatically** on the options page to have every page converted as it loads, without clicking. Chrome will ask you to let **CutSpel** read and change all websites; untick the box to remove that permission again. Pages on google.com are left unchanged in this mode.
+
+### Privacy
+
+**CutSpel** changes spelling inside your browser only. It does not collect, store or send any of the pages you read; the only things it saves are the word list and your settings.
